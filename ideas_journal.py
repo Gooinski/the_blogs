@@ -9,3 +9,18 @@
 # 2021 niche retailing
 # 2022 learning to create product
 
+# leveling up at work
+    # Think Big
+    # Communicate
+    # Simplify
+    # Prioritise
+    # Execute
+    # Understand Technical Trade offs
+    # Write Effective Copy
+    # Earn Trust
+    # Dig for Data
+    # Push back effectively
+    # Adopt to change
+    # Driven by impact
+    # 
+
