@@ -24,3 +24,6 @@
     # Driven by impact
     # 
 
+# ETL
+    # Extract Transform Load
+    # ETL in Product data - DONE
