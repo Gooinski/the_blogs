@@ -27,3 +27,8 @@
 # ETL
     # Extract Transform Load
     # ETL in Product data - DONE
+    # Superior ETL
+    # Building and Extract process with python extension to use
+
+# Startup lean
+    # Order from Chaos
