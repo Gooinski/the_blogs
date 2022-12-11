@@ -35,3 +35,7 @@
 
 # trip.cards
     # Builing with FASTAPI
+    # Sales and marketing
+
+# random
+    # going round in a circle
