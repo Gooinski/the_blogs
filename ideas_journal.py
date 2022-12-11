@@ -31,4 +31,7 @@
     # Building and Extract process with python extension to use
 
 # Startup lean
-    # Order from Chaos
+    # Order from Chaos - DONE
+
+# trip.cards
+    # Builing with FASTAPI
