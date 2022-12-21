@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <title>CRUD API Basics</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <h1>CRUD API Basics</h1>
+            <h2>Best practices implementing API CRUD methods</h2>
+            <h3>Author: Chris Lipinski, Published: 20221221</h3>
+            <h4>Create Read Update Delete</h4>
+            <p>Create http method: Post, uri best practice: /posts</p>
+            <p><code>@app.post('/posts')</code></p>
+            <p>Read http method: Get, uri best practice: /posts/:id paramater</p>
+            <p><code>@app.get('/posts/{id}')</code></p>
+            <p>Read http method: Get, uri best practice: /posts</p>
+            <p><code>@app.get('/posts')</code></p>
+            <p>Update http method: Put, uri best practice: /posts/:id</p>
+            <p><code>@app.put('/posts/{id}')</code></p>
+            <p>Delete http method: Delete, uri best practice: /posts/:id</p>
+            <p><code>@app.delete('/posts/{id}')</code></p>
+            <p>More on Fastapi: <a href="https://fastapi.tiangolo.com/tutorial/">Fastapi tutorial</a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="flex">
+        <a href="https://gooinski.com/blog/home.html">Gooinski Blogs</a>
+    </div>
+    </footer>
+</html>

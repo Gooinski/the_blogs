@@ -39,3 +39,10 @@
 
 # random
     # going round in a circle
+
+# heartpop.io
+
+# This is War.  
+# Rivers of gold for creators.  
+# In service to creators.
+# Data for growth.
