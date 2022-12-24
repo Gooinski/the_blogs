@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <title>CRUD API Basics</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <h1>SQL Table Constraints</h1>
+            <h2>Setting constraints in SQL tables</h2>
+            <h3>Author: Chris Lipinski, Published: 20221224</h3>
+            <p>NOT NULL constraint enforces a column to NOT accept NULL values.</p>
+            <p><code>CREATE TABLE User (
+                ID int NOT NULL,
+                LastName varchar(255) NOT NULL,
+                FirstName varchar(255) NOT NULL,
+                Age int
+                );</code></p>
+            <p>UNIQUE constraint ensures that all values in a column are different.</p>
+            <p><code>CREATE TABLE User (
+                ID int NOT NULL UNIQUE,
+                LastName varchar(255) NOT NULL,
+                FirstName varchar(255),
+                );</code></p>
+            <p>PRIMARY KEY constraint uniquely identifies each record in a table.</p>
+            <p><code>CREATE TABLE User (
+                ID int NOT NULL PRIMARY KEY,
+                LastName varchar(255) NOT NULL,
+                FirstName varchar(255),
+                );</code></p>
+            <p>FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.</p>
+            <p><code>CREATE TABLE Orders (
+                OrderID int NOT NULL PRIMARY KEY,
+                OrderNumber int NOT NULL,
+                UserID int FOREIGN KEY REFERENCES User(UserID)
+                );</code></p>
+            <p>CHECK constraint is used to limit the value range that can be placed in a column.</p>
+            <p><code>CREATE TABLE Persons (
+                ID int NOT NULL,
+                LastName varchar(255) NOT NULL,
+                FirstName varchar(255),
+                Age int CHECK (Age>=18)
+                );</code></p>
+            <p>More on w3school: <a href="https://www.w3schools.com/sql/sql_constraints.asp">link</a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="flex">
+        <a href="https://gooinski.com/blog/home.html">Gooinski Blogs</a>
+    </div>
+    </footer>
+</html>
